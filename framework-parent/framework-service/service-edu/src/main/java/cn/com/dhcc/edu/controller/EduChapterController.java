@@ -30,7 +30,7 @@ public class EduChapterController {
         if (chapterVoList != null) {
             return R.ok().data("list", chapterVoList);
         }
-        return R.error().message("查询失败！");
+        return R.error().message("查询失败");
     }
 
 }
